@@ -11,7 +11,8 @@
 development:
   adapter: mysql2
   encoding: utf8
-  database: test-project-deploy-jae_development
+  #database: test-project-deploy-jae_development
+  database: foo
   pool: 5
   username: root
   password: london00
