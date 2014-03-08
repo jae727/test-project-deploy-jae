@@ -1,0 +1,3 @@
+/usr/local/nginx/conf/nginx.conf
+/usr/local/nginx/conf/sites-available/hello.conf
+rename etc-nginx ==> /etc/init/nginx.c

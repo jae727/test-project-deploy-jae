@@ -15,7 +15,7 @@
 #  database: foo
 #  pool: 5
 #  username: root
-#  password: london00
+#  password: 
 #  socket: /tmp/mysql.sock
 
 development:
