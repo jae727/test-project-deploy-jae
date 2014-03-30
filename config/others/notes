@@ -1,3 +1,16 @@
+
 /usr/local/nginx/conf/nginx.conf
+/etc/init/nginx.conf
 /usr/local/nginx/conf/sites-available/hello.conf
-rename etc-nginx ==> /etc/init/nginx.c
+create a link called hello.conf inside of 
+	/usr/local/nginx/conf/sites-enabled that points to
+	/usr/local/nginx/conf/sites-available
+/etc/god/god.god
+
+total 20
+-rw-r--r-- 1 vagrant vagrant 3305 Mar 30 20:38 etc-god-god.god
+-rw-r--r-- 1 vagrant vagrant  467 Mar 30 20:39 etc-init-nginx.conf
+-rw-rw-r-- 1 vagrant vagrant    0 Mar 30 20:37 link.to.hello.conf.see.notes
+-rw-rw-r-- 1 vagrant vagrant  255 Mar 30 20:40 notes
+-rw-r--r-- 1 vagrant vagrant  861 Mar 30 20:35 usr-local-nginx-conf-nginx.conf
+-rw-r--r-- 1 vagrant vagrant  585 Mar 30 20:36 usr-local-nginx-conf-sites-available-hello.conf
